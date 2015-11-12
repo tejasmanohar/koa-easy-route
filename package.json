@@ -4,8 +4,9 @@
   "description": "configuration-based routing for koa.js",
   "main": "dist/index.js",
   "scripts": {
+    "test": "mocha --compilers js:babel/register",
     "prepublish": "rm -rf dist/; babel -d dist/ src/"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tejasmanohar/koa-easy-route.git"
@@ -17,7 +18,7 @@
     "koa-route",
     "easy",
     "easy route",
-    "easy router"
+    "easy router",
     "router"
   ],
   "author": "Tejas Manohar <me@tejas.io>",
@@ -27,6 +28,10 @@
   },
   "homepage": "https://github.com/tejasmanohar/koa-easy-route#readme",
   "devDependencies": {
-    "babel": "^5.8.34"
+    "babel": "5",
+    "koa": "1",
+    "mocha": "^2.3.3",
+    "should": "*",
+    "supertest": "^1.1.0"
   }
 }
