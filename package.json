@@ -4,7 +4,7 @@
   "description": "configuration-based routing for koa.js",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "babel -d dist/ src/"
+    "prepublish": "rm -rf dist/; babel -d dist/ src/"
   }
   "repository": {
     "type": "git",
