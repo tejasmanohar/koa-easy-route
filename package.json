@@ -2,7 +2,10 @@
   "name": "koa-easy-route",
   "version": "0.0.0",
   "description": "configuration-based routing for koa.js",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "babel -d dist/ src/"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tejasmanohar/koa-easy-route.git"
@@ -13,10 +16,8 @@
     "route",
     "koa-route",
     "easy",
-    "easy",
-    "route",
-    "router",
-    "easy",
+    "easy route",
+    "easy router"
     "router"
   ],
   "author": "Tejas Manohar <me@tejas.io>",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/tejasmanohar/koa-easy-route/issues"
   },
-  "homepage": "https://github.com/tejasmanohar/koa-easy-route#readme"
+  "homepage": "https://github.com/tejasmanohar/koa-easy-route#readme",
+  "devDependencies": {
+    "babel": "^5.8.34"
+  }
 }
