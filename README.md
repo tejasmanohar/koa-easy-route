@@ -1,7 +1,7 @@
 
 # Koa Easy Route
 
-[![NPM version](http://img.shields.io/npm/v/koa-easy-route.svg)](https://www.npmjs.com/package/koa-easy-route)
+[![NPM](https://nodei.co/npm/koa-easy-route.png?downloads=false)](https://nodei.co/npm/koa-easy-route/)
 
 Configuration-based routing for Koa.js... the _Grunt_ of routing
 
