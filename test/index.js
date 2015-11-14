@@ -7,7 +7,7 @@ import koa from 'koa'
 import request from 'supertest'
 import compose from 'koa-compose'
 
-import router from '../src'
+import router from '..'
 
 const app = koa()
 
