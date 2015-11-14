@@ -8,6 +8,7 @@ Configuration-based routing for Koa.js... the _Grunt_ of routing
 # Setup
 
 Install (and mark) the dependency-
+
 `npm install --save koa-easy-route`
 
 # Usage
