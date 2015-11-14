@@ -6,6 +6,7 @@ Configuration-based routing for Koa.js
 # Setup
 
 Install (and mark) the dependency-
+
 `npm install --save koa-easy-route`
 
 # Usage
